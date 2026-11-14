@@ -1,5 +1,9 @@
 # Online transaction fraud detection
 
+## About
+
+A Python machine learning project that compares tuned logistic regression and decision tree models for detecting fraudulent online transactions.
+
 Train logistic regression and decision tree classifiers on a labeled transaction CSV. The script performs a stratified train/test split, tunes hyperparameters with three-fold cross-validation using average precision, and reports precision, recall, F1 and confusion matrices on held-out data. It saves the better model by held-out average precision.
 
 ## Run
